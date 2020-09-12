@@ -16,12 +16,11 @@ void setup(){
   //translate(width/2, height/2);
   //rotate(PI);
   //image(img,75,35);
-  
-  tint(255, 126);
+
 }
 
 void draw(){
-  background(101, 30);
+  background(255);
 
   if (endX < 600){
     stroke((float)(Math.random()*256), (float)(Math.random()*256), (float)(Math.random()*256));
